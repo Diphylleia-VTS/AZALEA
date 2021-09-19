@@ -1,0 +1,24 @@
+.header-link-button {
+  @media only screen and (min-width: 1280px) {
+    font-size: 60%;
+  }
+  width: 25%;
+  background-color: maroon;
+  color: white;
+  padding: 10px;
+  border: none;
+  display: block;
+  text-decoration: none;
+}
+
+.header-link-button:hover {
+  opacity: 0.6;
+}
+
+.header-link-button:focus {
+  outline: 0;
+}
+
+li {
+  width: 100%;
+}
