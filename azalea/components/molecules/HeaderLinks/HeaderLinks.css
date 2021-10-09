@@ -1,9 +1,8 @@
-
-ul{
-    display: flex;
-    list-style: none;
+ul {
+  display: flex;
+  list-style: none;
 }
 
-ul:last-child{
-    margin: 0;
+ul:last-child {
+  margin: 0;
 }

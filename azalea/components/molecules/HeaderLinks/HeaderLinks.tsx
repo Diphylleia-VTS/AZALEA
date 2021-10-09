@@ -2,13 +2,24 @@ import React, { FunctionComponent } from "react"
 import LinkButton from "../../atoms/LinkButton/LinkButton"
 import { makeStyles } from '@material-ui/core/styles';
 
+const borderColor = "#866266"
+
 const useStyles = makeStyles(() => ({
     root: {
         width: "100%",
         "& ul": {
+            flexBasis: "25%",
+            listStyle: "none",
             display: "flex",
-            "& last-child": {
-                margin: "0"
+            justifyContent: "space-between",
+            paddingLeft: "0",
+            "& li": {
+                "&:first-child": {
+                    borderLeft: "none"
+                },
+                flex: "auto",
+                borderLeft: `solid ${borderColor} 2px`,
+                marginBottom: "5px"
             }
         }
     },
