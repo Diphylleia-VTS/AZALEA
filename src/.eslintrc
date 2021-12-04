@@ -1,3 +1,4 @@
+// powered by https://fwywd.com/tech/next-eslint-prettier
 {
   "extends": [
     "next",

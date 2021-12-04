@@ -1,7 +1,7 @@
-import Head from 'next/head';
-import { FunctionComponent } from 'react';
+import Head from "next/head";
+import { FunctionComponent } from "react";
 
-const Home: FunctionComponent = () => {
+const BlogIndex: FunctionComponent = () => {
   return (
     <div>
       <Head>
@@ -11,4 +11,4 @@ const Home: FunctionComponent = () => {
   );
 };
 
-export default Home;
+export default BlogIndex;
