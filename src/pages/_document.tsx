@@ -11,7 +11,7 @@ export default class MyDocument extends Document {
           <meta name="twitter:site" content="@Diphyl_Grayi" />
           <meta name="twitter:title" content="Diphylleia" />
           <meta name="twitter:description" content="Next fall, bloom❁" />
-          <meta property="og:image" content="/preview.png" />
+          <meta property="og:image" content="https://dl.easyuploader.cloud/20211224023041_35503050.png" />
           {/* PWA primary color */}
           <link
             rel="stylesheet"
