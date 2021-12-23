@@ -60,7 +60,6 @@ const Home: FunctionComponent = () => {
         <meta name="twitter:title" content="Diphylleia" />
         <meta name="twitter:description" content="Next fall, bloom❁" />
         <meta property="og:image" content="/preview.png" />
-        <meta name="twitter:card" content="summary_large_image"/>
       </Head>
       <div className={classes.background}>
         <Image src={backGroundImage} alt="" />
