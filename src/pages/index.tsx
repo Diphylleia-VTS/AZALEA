@@ -59,7 +59,7 @@ const Home: FunctionComponent = () => {
         <meta name="twitter:site" content="@Diphyl_Grayi" />
         <meta name="twitter:title" content="Diphylleia" />
         <meta name="twitter:description" content="Next fall, bloom❁" />
-        <meta property="og:image" content={`${process.env.SITE_URL}/preview.png`} />
+        <meta property="og:image" content="../../public/preview.png" />
         <meta name="twitter:card" content="summary_large_image"/>
       </Head>
       <div className={classes.background}>
