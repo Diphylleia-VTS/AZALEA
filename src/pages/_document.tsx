@@ -7,6 +7,11 @@ export default class MyDocument extends Document {
     return (
       <Html lang="ja-JP">
         <Head>
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:site" content="@Diphyl_Grayi" />
+          <meta name="twitter:title" content="Diphylleia" />
+          <meta name="twitter:description" content="Next fall, bloom❁" />
+          <meta property="og:image" content="/preview.png" />
           {/* PWA primary color */}
           <link
             rel="stylesheet"

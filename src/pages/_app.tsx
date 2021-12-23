@@ -21,6 +21,11 @@ const App: React.FC<AppProps> = ({ Component, pageProps }) => {
       <Head>
         <title>Diphylleia</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@Diphyl_Grayi" />
+        <meta name="twitter:title" content="Diphylleia" />
+        <meta name="twitter:description" content="Next fall, bloom❁" />
+        <meta property="og:image" content="/preview.png" />
       </Head>
       <HeaderComponent />
       <Component {...pageProps} />
